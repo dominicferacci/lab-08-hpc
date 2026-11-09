@@ -12,7 +12,7 @@ Redirect the command's output to `results/job-history.txt` and include the file 
 
 **Your answer:** Provide the entire command you used, including all CLI options.
 
-The entire command I used was: sacct -X --starttime=2026-11-04 --format=JobID,JobName,NodeList,Partition,Account,User,State,Start,Elasped > results/job-history.txt
+The entire command I used was: sacct -X --starttime=2026-11-04 --format=JobID,JobName,NodeList,Partition,Account,User,State,Start,Elapsed > results/job-history.txt
 
 ## 2. Slurm: did every array task run at the same time?
 
